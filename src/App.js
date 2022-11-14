@@ -22,12 +22,7 @@ function App() {
 			</div>
 			<div className="window">
 				<ShopItemClass
-					brand={item.brand}
-					title={item.title}
-					description={item.description}
-					descriptionFull={item.descriptionFull}
-					price={item.price}
-					currency={item.currency}
+					item={item}
 				/>
 			</div>
 		</div>
